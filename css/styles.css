@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -25,11 +25,12 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo .logo-part {
+.header-logo,
+.logo-part {
   color: #2e2f42;
 }
 
-nav-link,
+nav-link:hover,
 nav-link:focus {
   color: #404bbf;
 }
@@ -65,24 +66,41 @@ nav-link:focus {
 }
 
 .hero {
+  background-color: #2e2f42;
 }
 .title-hero {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
+.button {
+  cursor: pointer;
+}
+
+.btn-primary {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff
+  background-color: #4d5ae5;
+}
 .innovations {
 }
+
 .innovations-title {
 }
+
 .innovations-list {
 }
+
 .innovations-item {
 }
+
 .innovations-sybtitle,
 .team-sybtitle,
 .portfolio-subtitle {
@@ -103,6 +121,7 @@ nav-link:focus {
 }
 
 .team {
+  background-color: #F4F4FD
 }
 .team-title,
 .portfolio-title {
@@ -113,7 +132,13 @@ nav-link:focus {
   text-align: center;
   color: #2e2f42;
 }
+
+.team-caption {
+  text-transform: capitalize;
+}
+
 .team-list {
+  background-color: #FFF
 }
 .team-atem {
 }
@@ -126,9 +151,25 @@ team-text-desc {
 }
 
 .portfolio {
+  text-transform: capitalize;
 }
 
 .portfolio-list {
 }
 .portfolio-atem {
+}
+
+page-footer {
+  background-color зі значенням #2e2f42
+}
+.logo-part-light {
+  color: #f4f4fd;
+}
+
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
