@@ -12,20 +12,16 @@ a {
   text-decoration: none;
 }
 
-.page-header {
-}
-.header-nav {
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo,
+
 .logo-part {
   color: #2e2f42;
 }
@@ -35,10 +31,6 @@ nav-link:focus {
   color: #404bbf;
 }
 
-.nav-list {
-}
-.nav-item {
-}
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -49,10 +41,7 @@ nav-link:focus {
 .contacts {
   font-style: normal;
 }
-.contacts-list {
-}
-.contacts-item {
-}
+
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
@@ -60,14 +49,15 @@ nav-link:focus {
   color: #434455;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link :hover,
+.contacts-link :focus {
   color: #404bbf;
 }
 
 .hero {
   background-color: #2e2f42;
 }
+
 .title-hero {
   font-weight: 700;
   font-size: 56px;
@@ -80,25 +70,18 @@ nav-link:focus {
 .button {
   cursor: pointer;
 }
+button :hover,
+button :focus {
+  background-color: #404bbf;
+}
 
 .btn-primary {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff
+  color: #ffffff;
   background-color: #4d5ae5;
-}
-.innovations {
-}
-
-.innovations-title {
-}
-
-.innovations-list {
-}
-
-.innovations-item {
 }
 
 .innovations-sybtitle,
@@ -110,6 +93,7 @@ nav-link:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .innovations-text,
 .team-text,
 .portfolio-text {
@@ -121,7 +105,7 @@ nav-link:focus {
 }
 
 .team {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 .team-title,
 .portfolio-title {
@@ -138,10 +122,9 @@ nav-link:focus {
 }
 
 .team-list {
-  background-color: #FFF
+  background-color: #fff;
 }
-.team-atem {
-}
+
 .team-sybtitle-desc {
   text-align: center;
 }
@@ -154,22 +137,17 @@ team-text-desc {
   text-transform: capitalize;
 }
 
-.portfolio-list {
-}
-.portfolio-atem {
-}
-
 page-footer {
-  background-color зі значенням #2e2f42
+  background-color: #2e2f42;
 }
 .logo-part-light {
   color: #f4f4fd;
 }
 
 .footer-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
