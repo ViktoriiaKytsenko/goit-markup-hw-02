@@ -54,7 +54,8 @@ nav-link:focus {
   color: #404bbf;
 }
 
-.hero {
+.hero,
+.footer {
   background-color: #2e2f42;
 }
 
@@ -137,9 +138,6 @@ team-text-desc {
   text-transform: capitalize;
 }
 
-.footer {
-  background-color: #2e2f42;
-}
 .logo-part-light {
   color: #f4f4fd;
 }
