@@ -16,7 +16,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -49,8 +49,8 @@ nav-link:focus {
   color: #434455;
 }
 
-.contacts-link :hover,
-.contacts-link :focus {
+contacts-link :hover,
+contacts-link :focus {
   color: #404bbf;
 }
 
@@ -123,14 +123,14 @@ button :focus {
 }
 
 .team-list {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .team-sybtitle-desc {
   text-align: center;
 }
 
-team-text-desc {
+.team-desc {
   text-align: center;
 }
 
