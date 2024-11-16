@@ -36,7 +36,9 @@ button {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.contacts-link :hover,
+.contacts-link :focus {
   color: #404bbf;
 }
 
@@ -56,11 +58,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.contacts-link :hover,
-.contacts-link :focus {
-  color: #404bbf;
 }
 
 .hero,
@@ -130,6 +127,9 @@ button {
 
 .team-list {
   background-color: #ffffff;
+}
+.team-atem {
+  background: #fff;
 }
 
 .team-desc {
