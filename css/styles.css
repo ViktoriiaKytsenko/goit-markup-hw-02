@@ -10,6 +10,15 @@ ul ol {
 
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
 }
 
 .logo {
@@ -26,8 +35,8 @@ a {
   color: #2e2f42;
 }
 
-nav-link:hover,
-nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -49,8 +58,8 @@ nav-link:focus {
   color: #434455;
 }
 
-contacts-link :hover,
-contacts-link :focus {
+.contacts-link :hover,
+.contacts-link :focus {
   color: #404bbf;
 }
 
@@ -68,11 +77,8 @@ contacts-link :focus {
   color: #fff;
 }
 
-.button {
-  cursor: pointer;
-}
-button :hover,
-button :focus {
+.button :hover,
+.button :focus {
   background-color: #404bbf;
 }
 
@@ -124,10 +130,6 @@ button :focus {
 
 .team-list {
   background-color: #ffffff;
-}
-
-.team-sybtitle-desc {
-  text-align: center;
 }
 
 .team-desc {
